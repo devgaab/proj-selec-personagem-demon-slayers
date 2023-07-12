@@ -1,0 +1,122 @@
+body {
+    font-family: 'Aleo', serif;
+    background-color: #000;
+    color: #ffff;
+}
+
+body::before {
+    content: "";
+    background-image: url(../image/fundo-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 20px;
+
+}
+
+main {
+    margin-top: -10px;
+}
+
+.selecao-de-personagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+}
+
+.selecao-de-personagens .lista-de-personagens {
+    background: transparent;
+    height: 500px;
+    padding: 20px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-personagens .personagens .titulo {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff2b2b;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagem {
+    border-bottom: 4px solid #ff2b2b;
+}
+
+.lista-de-personagens .personagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-personagens .personagem.selecionado {
+    box-shadow: 0px 0px 20px 4px #ff0000;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-height: 530px;
+}
+
+.personagem-selecionado .personagem-grande {
+    width: 430px;
+    height: 430px;
+}
+
+.personagem-selecionado .nome-personagem {
+    border-bottom: 2px solid #ff2b2b;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.personagem-selecionado .descricao-personagem {
+    background: transparent;
+    max-height: 100px;
+    padding: 5px;
+    overflow-y: scroll;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 15px;
+    width: 420px;
+}
+
+.rodape {
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.rodape a {
+    color: #ff0000;
+}
