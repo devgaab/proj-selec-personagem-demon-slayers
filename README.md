@@ -5,7 +5,7 @@
 <img src=".github/preview-mobile.png" alt="Demonstração do projeto para mobile." width="100%"/>
 
 ### 💻 Projeto 
-Um projeto de seleção de personagens que aprendi em um evento chamado "Do Zero ao Programador Contratado" - Dev em Dobro.
+Esse é um projeto Web Responsivo de seleção de personagens que aprendi no evento do Dev em Dobro chamado "Do Zero ao Programador Contratado".
 
 ### ⚙ Funcionalidades
 - Projeto responsivo
