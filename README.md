@@ -15,7 +15,6 @@
 
 ### 💻 Projeto 
 Um projeto de seleção de personagens que aprendi em um evento chamado "Do Zero ao Programador Contratado" - Dev em Dobro.
-- [Acesse o projeto finalizado, online](https://devgaab.github.io/proj-selec-personagem-demon-slayers/)
 
 ### ⚙ Funcionalidades
 - Projeto responsivo
@@ -25,6 +24,3 @@ Um projeto de seleção de personagens que aprendi em um evento chamado "Do Zero
  Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - JavaScript
-- Git e Github
-
----
